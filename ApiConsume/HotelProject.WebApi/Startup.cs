@@ -71,7 +71,7 @@ namespace HotelProject.WebApi
             //services.AddScoped<IAppUserDal, EfAppUserDal>();
             //services.AddScoped<IAppUserService, AppUserManager>();
 
-            //services.AddAutoMapper(typeof(Startup));
+            services.AddAutoMapper(typeof(Startup));
 
             // services.AddScoped
 

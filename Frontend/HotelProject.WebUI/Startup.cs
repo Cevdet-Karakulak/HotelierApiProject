@@ -33,7 +33,7 @@ namespace HotelProject.WebUI
             //services.AddTransient<IValidator<CreateGuestDto>, CreateGuestValidator>();
             //services.AddTransient<IValidator<UpdateGuestDto>, UpdateGuestValidator>();
             services.AddControllersWithViews();/*.AddFluentValidation();*/
-            //services.AddAutoMapper(typeof(Startup));
+            services.AddAutoMapper(typeof(Startup));
             services.AddMvc(config =>
             {
                 var policy = new AuthorizationPolicyBuilder()
