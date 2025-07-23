@@ -28,6 +28,10 @@ namespace HotelProject.WebApi.Controllers
         [HttpPost]
         public IActionResult AddBooking(Booking booking)
         {
+            if (booking.Checkin == null || booking.Checkin == DateTime.MinValue)
+                booking.Checkin = DateTime.Now; 
+            if (booking.CheckOut == null || booking.CheckOut == DateTime.MinValue)
+                booking.CheckOut = booking.Checkin.AddDays(1); 
             _bookingService.TInsert(booking);
             return Ok();
         }

@@ -1,0 +1,25 @@
+﻿@model string
+@{
+    Layout = null;
+}
+<link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+<div class="container">
+    <br />
+    <form method="post">
+        <label>Şehir Adını Giriniz</label>
+        <input type="text" class="form-control" name="cityName" />
+        <br />
+        <button class="btn btn-primary">Şehir İçin ID Bul</button>
+    </form>
+
+    @if (!string.IsNullOrEmpty(Model))
+    {
+        <div class="mt-4">
+            <h4>Bulunan Şehir ID:</h4>
+            <div class="alert alert-info">
+                <strong>@Model</strong>
+            </div>
+        </div>
+    }
+</div>
