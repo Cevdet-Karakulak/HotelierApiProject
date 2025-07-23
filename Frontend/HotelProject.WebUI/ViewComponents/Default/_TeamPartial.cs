@@ -23,7 +23,11 @@ namespace HotelProject.WebUI.ViewComponents.Default
             {
                 var jsonData = await responseMessage.Content.ReadAsStringAsync();
                 var values = JsonConvert.DeserializeObject<List<ResultStaffDto>>(jsonData);
-                return View(values);
+
+                // İlk 4 kişiyi al
+                var firstFour = values.Take(4).ToList();
+
+                return View(firstFour);
             }
             return View();
         }    }

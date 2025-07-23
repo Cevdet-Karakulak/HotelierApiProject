@@ -47,14 +47,14 @@ namespace HotelProject.WebApi
             services.AddScoped<ITestimonialDal, EfTestimonialDal>();
             services.AddScoped<ITestimonialService, TestimonialManager>();
 
-            //services.AddScoped<IAboutDal, EfAboutDal>();
-            //services.AddScoped<IAboutService, AboutManager>();
+            services.AddScoped<IAboutDal, EfAboutDal>();
+            services.AddScoped<IAboutService, AboutManager>();
 
-            //services.AddScoped<IBookingDal, EfBookingDal>();
-            //services.AddScoped<IBookingService, BookingManager>();
+            services.AddScoped<IBookingDal, EfBookingDal>();
+            services.AddScoped<IBookingService, BookingManager>();
 
-            //services.AddScoped<IContactDal, EfContactDal>();
-            //services.AddScoped<IContactService, ContactManager>();
+            services.AddScoped<IContactDal, EfContactDal>();
+            services.AddScoped<IContactService, ContactManager>();
 
             //services.AddScoped<IGuestDal, EfGuestDal>();
             //services.AddScoped<IGuestService, GuestManager>();
