@@ -57,18 +57,22 @@ Bu proje, [Murat Yücedağ](https://www.udemy.com/course/aspnet-core-api-rapid-a
 
 ---
 
-## 🗃️ Projede Yer Alan Başlıca Entityler
-- **Booking** – Rezervasyonlar  
-- **Room** – Odalar  
-- **Guest** – Misafirler  
-- **Staff** – Personel  
-- **MessageCategory** – Mesaj kategorileri  
-- **SendMessage** – Gönderilen mesajlar  
-- **Service** – Otel hizmetleri  
-- **Testimonial** – Müşteri yorumları  
-- **Subscribe** – Mail bülteni abonelikleri  
-- **WorkLocation** – Otel lokasyonları  
-- **AppUser & AppRole** – Kullanıcı & Roller  
+### 🗃️ Projede Yer Alan Başlıca Entity'ler
+
+| 🧩 Entity Adı         | 📄 Açıklama                                |
+|----------------------|-------------------------------------------|
+| 🛎️ **Booking**        | Rezervasyonlar                             |
+| 🛏️ **Room**           | Odalar                                     |
+| 🧳 **Guest**          | Misafirler                                 |
+| 🧑‍🍳 **Staff**         | Personel                                   |
+| 🗂️ **MessageCategory** | Mesaj kategorileri                         |
+| ✉️ **SendMessage**     | Gönderilen mesajlar                        |
+| 🛠️ **Service**         | Otel hizmetleri                            |
+| 💬 **Testimonial**     | Müşteri yorumları                          |
+| 📬 **Subscribe**       | Mail bülteni abonelikleri                  |
+| 📍 **WorkLocation**    | Otel lokasyonları                          |
+| 👤 **AppUser**         | Kullanıcılar (kimlik yönetimi)             |
+| 🛡️ **AppRole**         | Roller (yetki yönetimi)                    |
 
 ---
 
