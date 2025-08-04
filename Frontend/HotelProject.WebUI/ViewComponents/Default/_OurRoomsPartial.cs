@@ -27,7 +27,7 @@ namespace HotelProject.WebUI.ViewComponents.Default
                 var groupedRooms = values
                     .GroupBy(x => x.Title)
                     .Select(g => g.First())
-                    .Take(3)
+                    .Take(6)
                     .ToList();
 
                 return View(groupedRooms);

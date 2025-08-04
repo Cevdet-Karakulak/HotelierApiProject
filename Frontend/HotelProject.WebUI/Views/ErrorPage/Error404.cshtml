@@ -1,0 +1,77 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Sayfa Bulunamadı | HotelPro</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="~/adminweb/css/style.css" rel="stylesheet">
+    <style>
+        body {
+            background: #f7f9fc;
+            font-family: 'Roboto', sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .error-container {
+            text-align: center;
+            padding: 50px;
+            background: #fff;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+            border-radius: 12px;
+            max-width: 500px;
+            width: 100%;
+        }
+        .error-code {
+            font-size: 120px;
+            font-weight: 700;
+            color: #007bff;
+        }
+        .error-message {
+            font-size: 22px;
+            font-weight: 500;
+            margin: 10px 0;
+            color: #333;
+        }
+        .error-subtext {
+            font-size: 16px;
+            color: #777;
+            margin-bottom: 30px;
+        }
+        .btn-primary {
+            display: inline-block;
+            padding: 12px 28px;
+            background: #007bff;
+            color: #fff;
+            font-size: 16px;
+            border-radius: 8px;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+        .btn-primary:hover {
+            background: #0056b3;
+        }
+        .error-icon {
+            font-size: 80px;
+            color: #ff6b6b;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="error-container">
+        <div class="error-icon">😕</div>
+        <div class="error-code">404</div>
+        <div class="error-message">Sayfa Bulunamadı</div>
+        <div class="error-subtext">Aradığınız sayfa mevcut değil veya taşınmış olabilir.</div>
+        <a href="/Default/Index/" class="btn-primary">Ana Sayfaya Dön</a>
+    </div>
+</body>
+</html>

@@ -1,5 +1,6 @@
 ﻿using HotelProject.BusinessLayer.Abstract;
 using HotelProject.EntityLayer.Concrete;
+using HotelProject.WebApi.DTOs;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -19,9 +20,21 @@ namespace HotelProject.WebApi.Controllers
             _contactService = contactService;
         }
         [HttpPost]
-        public IActionResult AddContact(Contact contact)
+        public IActionResult AddContact([FromBody] CreateContactDto dto)
         {
-            contact.Date = Convert.ToDateTime(DateTime.Now.ToString());
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
+
+            var contact = new Contact
+            {
+                Name = dto.Name,
+                Mail = dto.Mail,
+                Subject = dto.Subject,
+                Message = dto.Message,
+                MessageCategoryID = dto.MessageCategoryID,
+                Date = DateTime.Now
+            };
+
             _contactService.TInsert(contact);
             return Ok();
         }
