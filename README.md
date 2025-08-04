@@ -22,22 +22,29 @@ Bu proje, [Murat Yücedağ](https://www.udemy.com/course/aspnet-core-api-rapid-a
 
 ## 📋 Temel Özellikler
 
-### 🧩 **Kurumsal Mimari (6 Katmanlı Yapı)**
-- **API Layer:** REST endpoint’leri  
-- **Business Layer:** İş kuralları & Validasyon  
-- **Data Access Layer:** EF Core ile veri işlemleri  
-- **Entity Layer:** Varlık (Entity) ve DTO tanımları  
-- **Presentation Layer:** MVC tabanlı UI  
-- **Core Helpers:** Ortak servis ve yapılandırmalar  
+### 🧩 Kurumsal Mimari (6 Katmanlı Yapı)
 
-### 🛠️ **Admin Paneli**
-- Dashboard: Toplam rezervasyon, kullanıcı, oda, personel istatistikleri  
-- Rezervasyon yönetimi (Onay / İptal / Beklet)  
-- Personel, oda, müşteri, hizmet, referans, lokasyon CRUD işlemleri  
-- Gelen kutusu: Kullanıcılardan gelen mesajları görüntüleme ve yanıtlama  
-- Rol & kullanıcı yönetimi (Rol atama dahil)  
-- Görsel & dosya yönetimi  
-- Profil ayarları  
+| 🏗️ Katman                  | 📄 Açıklama                                           |
+|----------------------------|------------------------------------------------------|
+| 🌐 **API Layer**           | REST endpoint’leri                                   |
+| ⚙️ **Business Layer**      | İş kuralları & validasyon işlemleri                  |
+| 💾 **Data Access Layer**   | EF Core ile veri tabanı işlemleri                    |
+| 🧱 **Entity Layer**        | Entity ve DTO tanımlamaları                          |
+| 🖥️ **Presentation Layer** | MVC tabanlı kullanıcı arayüzü                        |
+
+
+### 🛠️ Admin Paneli Özellikleri
+
+| 🖥️ Özellik                         | 📄 Açıklama                                                                 |
+|-----------------------------------|-----------------------------------------------------------------------------|
+| 📊 **Dashboard**                  | Toplam rezervasyon, kullanıcı, oda, personel istatistiklerini gösterir     |
+| 🛎️ **Rezervasyon Yönetimi**       | Onayla / İptal et / Beklet işlemleri                                       |
+| 🧑‍💼 **Personel & Oda Yönetimi**   | Personel, oda, müşteri, hizmet, referans, lokasyon için CRUD işlemleri     |
+| 📥 **Gelen Kutusu**               | Kullanıcılardan gelen mesajları görüntüleme ve yanıtlama                   |
+| 🛡️ **Rol & Kullanıcı Yönetimi**   | Rol atama, kullanıcı düzenleme işlemleri                                   |
+| 🖼️ **Görsel & Dosya Yönetimi**    | Fotoğraf ve belge yükleme/düzenleme işlemleri                              |
+| ⚙️ **Profil Ayarları**            | Yönetici profil bilgilerini görüntüleme ve düzenleme                       |
+
 
 ### 👤 **Kullanıcı Paneli**
 - Şehre, giriş/çıkış tarihine ve kişi sayısına göre **otel arama**  
