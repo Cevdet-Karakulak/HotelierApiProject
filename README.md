@@ -1,7 +1,6 @@
-# 🏨✨ Kurumsal Otel Rezervasyon RESTful API Projesi ✨🏨
+# 🏨💼 Kurumsal Otel Rezervasyon Projesi | ASP.NET Core API - RapidAPI ve API Consume 🌐✨
 
-Bu proje, Murat Yücedağ hocanın Udemy’deki “ASP.NET Core API - RapidAPI ve API Consume” eğitimi temel alınarak, **REST prensiplerine uygun**, **tam kapsamlı bir otel rezervasyon ve yönetim sistemi** olarak geliştirilmiştir.  
-Backend işlemleri tamamen **ASP.NET Core Web API** ile sağlanmış, **MVC tabanlı frontend** ile entegre edilmiştir.  
+Bu proje, [Murat Yücedağ](https://www.udemy.com/course/aspnet-core-api-rapid-api-ve-api-consume/) hocanın Udemy’deki **“ASP.NET Core API - RapidAPI ve API Consume”** eğitimi temel alınarak, **REST prensiplerine uygun**, **tam kapsamlı bir otel rezervasyon ve yönetim sistemi** olarak geliştirilmiştir.
 
 **Hedef:** Kurumsal bir otel rezervasyon sisteminin, **gerçek dünya senaryolarına** uygun şekilde N-Katmanlı mimari kullanılarak geliştirilmesi.  
 
