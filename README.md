@@ -76,7 +76,7 @@ Backend işlemleri tamamen **ASP.NET Core Web API** ile sağlanmış, **MVC taba
 ## 📸 Ekran Görüntüleri
 ><img width="1456" height="908" alt="Image" src="https://github.com/user-attachments/assets/e0fb5e4e-d70e-445a-8d1c-5e6e3e153e8a" />
 
-<img width="649" height="806" alt="Image" src="https://github.com/user-attachments/assets/926aaea8-cc66-4d00-b4a8-4c6634927887" />
+<img width="1456" height="815" alt="Image" src="https://github.com/user-attachments/assets/f48c697d-09d5-4c73-a181-9754a4e31794" />
 
 <img width="1456" height="815" alt="Image" src="https://github.com/user-attachments/assets/866bdb28-7449-4003-b5b6-11ade562e0a9" />
 
