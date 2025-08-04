@@ -1,23 +1,11 @@
 # 🏨✨ Kurumsal Otel Rezervasyon RESTful API Projesi ✨🏨
 
-Bu proje, **REST prensiplerine uygun**, **tam kapsamlı bir otel rezervasyon ve yönetim sistemi** olarak geliştirilmiştir.  
+Bu proje, Murat Yücedağ hocanın Udemy’deki “ASP.NET Core API - RapidAPI ve API Consume” eğitimi temel alınarak, **REST prensiplerine uygun**, **tam kapsamlı bir otel rezervasyon ve yönetim sistemi** olarak geliştirilmiştir.  
 Backend işlemleri tamamen **ASP.NET Core Web API** ile sağlanmış, **MVC tabanlı frontend** ile entegre edilmiştir.  
 
 **Hedef:** Kurumsal bir otel rezervasyon sisteminin, **gerçek dünya senaryolarına** uygun şekilde N-Katmanlı mimari kullanılarak geliştirilmesi.  
 
 ---
-
-## 🚀 Kullanılan Teknolojiler
-- **ASP.NET Core 7.0 Web API**  
-- **ASP.NET Core MVC (UI)**  
-- **Entity Framework Core + MSSQL**  
-- **Identity & JWT Authentication**  
-- **AutoMapper**  
-- **FluentValidation**  
-- **RapidAPI Entegrasyonu**  
-- **Repository Design Pattern**  
-- **AJAX & ViewComponents**  
-- **MailKit (SMTP) ile Mail Gönderimi**
 
   ## 🛠️ Kullanılan Teknolojiler
 
@@ -86,14 +74,46 @@ Backend işlemleri tamamen **ASP.NET Core Web API** ile sağlanmış, **MVC taba
 ---
 
 ## 📸 Ekran Görüntüleri
-> *(Buraya admin paneli, rezervasyon formu, dashboard ve otel listeleme sayfalarının ekran görüntüleri eklenecek.)*
+><img width="1456" height="908" alt="Image" src="https://github.com/user-attachments/assets/e0fb5e4e-d70e-445a-8d1c-5e6e3e153e8a" />
+
+<img width="649" height="806" alt="Image" src="https://github.com/user-attachments/assets/926aaea8-cc66-4d00-b4a8-4c6634927887" />
+
+<img width="1456" height="815" alt="Image" src="https://github.com/user-attachments/assets/866bdb28-7449-4003-b5b6-11ade562e0a9" />
+
+<img width="1426" height="910" alt="Image" src="https://github.com/user-attachments/assets/5de6ca02-fbc5-4f06-8378-e3a10a299923" />
+
+<img width="1437" height="907" alt="Image" src="https://github.com/user-attachments/assets/780d94c7-6df2-4385-996c-07020fd2d32d" />
+
+<img width="1328" height="535" alt="Image" src="https://github.com/user-attachments/assets/1f8e1781-8ef8-436e-a535-ff8ab4bffbad" />
+
+<img width="1317" height="904" alt="Image" src="https://github.com/user-attachments/assets/4a2fe038-2882-4f92-950d-6c3aba16302c" />
+
+<img width="1327" height="918" alt="Image" src="https://github.com/user-attachments/assets/bcc70909-83f9-4633-9e52-6023ef363b77" />
+
+<img width="1154" height="800" alt="Image" src="https://github.com/user-attachments/assets/4b6d7aec-2083-415f-93b1-03150e5d5591" />
+
+<img width="1835" height="907" alt="Image" src="https://github.com/user-attachments/assets/4193017a-44a9-4fb2-87da-0eed79262630" />
+
+<img width="1871" height="894" alt="Image" src="https://github.com/user-attachments/assets/a3847096-b2ba-42da-a406-c2e262b479c4" />
+
+<img width="1715" height="908" alt="Image" src="https://github.com/user-attachments/assets/7b1f2931-2b90-4661-b4aa-55c7eef36b32" />
+
+<img width="1846" height="901" alt="Image" src="https://github.com/user-attachments/assets/58082a48-463c-4807-b20c-fe9bebfdbc1f" />
+
+<img width="1834" height="877" alt="Image" src="https://github.com/user-attachments/assets/5232895e-6f92-4d85-82fe-6ec549260243" />
+
+<img width="1837" height="904" alt="Image" src="https://github.com/user-attachments/assets/2074f666-8862-4097-a230-4b4ccf67f2b3" />
+
+<img width="930" height="400" alt="Image" src="https://github.com/user-attachments/assets/0356fb7a-79fc-4de7-bd03-ad2023d39026" />
+
+<img width="1882" height="879" alt="Image" src="https://github.com/user-attachments/assets/0490d960-12e0-409c-8ea8-d34b6f0b41fd" />
 
 ---
 
 ## 🏗️ Kurulum
 ```bash
 # Projeyi klonla
-git clone https://github.com/kullaniciadi/MyHotelApiProject.git
+git clone https://github.com/Cevdet-Karakulak/HotelierApiProject
 
 # API katmanını aç
 cd MyHotelApiProject/HotelProject.WebAPI
